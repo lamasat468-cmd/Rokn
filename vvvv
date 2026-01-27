@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ركن الشرقية للحفلات - تأجير جلسات شعبية تراثية وكراسي وطاولات للمناسبات</title>
+  
+  <meta name="description" content="ركن الشرقية للحفلات - تأجير جلسات شعبية تراثية فخمة، كراسي وطاولات للمناسبات في الدمام والخبر والشرقية. خصم 30% على جميع الخدمات. اتصل الآن 0559534118">
+  
+  <meta name="keywords" content="تاجير جلسات شعبيه بالدمام, ايجار جلسات شعبيه تراثية فخمة, جلسات خارجية جاهزة بالخبر, تأجير كنبات للمناسبات مميزة, استئجار جلسات خارجية بافضل سعر, جلسات أرضية تراثية للايجار, جلسات خارجية للايجار اليومي, تاجير جلسات ارضيه اتصل, تاجير جلسات شعبية بأسعار خاصة, تاجير كنب للحفلات بالدمام, جلسات تراثية للإيجار الفوري, تاجير جلسات ارضيه شعبيه اتصل, تاجير جلسات أرضيه بالدمام, تأجير كراسي وطاولات للمناسبات, ايجار زل استقبال وطاولات عزائم, تاجير طاولات قزاز وسجاد احمر, تاجير كراسي وطاولات للحفلات, ايجار كراسي وطاولات استقبال, تاجير سجاد استقبال وكوش للافراح, تجهيز وتاجير طاولات استقبال فاخرة, تنسيق تجهيز افراح ومناسبات, تاجير كوش أفراح وسجاد بالدمام, محل تاجير كراسي حفلات, تأجير سجاد وكراسي حفلات, كراسي للايجار الدمام, تاجير كراسي وطاولات الخبر, تاجير طاولات وجلسات بالدمام">
+  
+  <link rel="canonical" href="https://yourdomain.com" />
+  
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+  
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "ركن الشرقية للحفلات والمناسبات",
+  "image": "https://i.postimg.cc/76Fb6Fkg/6c9678ae-bf6a-4a31-a72d-31fc390bac9f.jpg",
+  "description": "تأجير جلسات شعبية تراثية، كراسي وطاولات، وجميع مستلزمات الحفلات في المنطقة الشرقية",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "الدمام",
+    "addressRegion": "الشرقية"
+  },
+  "telephone": "+966559534118",
+  "openingHours": "Mo-Su 00:00-24:00"
+}
+</script>
+  
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Cairo', 'Tajawal', sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      line-height: 1.7;
+    }
+
+    /* Video Background Header */
+    header {
+      position: relative;
+      padding: 120px 20px 140px;
+      text-align: center;
+      color: white;
+      overflow: hidden;
+      min-height: 450px;
+    }
+    
+    .video-background {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      overflow: hidden;
+    }
+    
+    .video-background video {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      opacity: 0.35;
+    }
+    
+    .video-background::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(135deg, rgba(139, 69, 19, 0.90) 0%, rgba(205, 133, 63, 0.85) 50%, rgba(160, 82, 45, 0.88) 100%);
+      z-index: 1;
+    }
+    
+    header .content {
+      position: relative;
+      z-index: 2;
+    }
+    
+    /* Logo Section */
+    .logo-section {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 30px;
+      flex-wrap: wrap;
+    }
+    
+    .logo {
+      width: 90px;
+      height: 90px;
+      background: linear-gradient(135deg, #d4af37, #f4e4c1);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+      animation: float 3s ease-in-out infinite;
+    }
+    
+    .logo i {
+      font-size: 3rem;
+      color: #8b4513;
+    }
+    
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    
+    .brand-name h1 {
+      font-size: 42px;
+      font-weight: 900;
+      margin: 0 0 10px;
+      text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
+      color: #fff;
+    }
+    
+    .brand-name p {
+      font-size: 18px;
+      color: rgba(255,255,255,0.95);
+      font-weight: 600;
+    }
+
+    header h1 {
+      font-size: 38px;
+      margin: 0 0 25px;
+      text-shadow: 2px 2px 8px rgba(0,0,0,0.4);
+      font-weight: 800;
+    }
+
+    header p {
+      font-size: 22px;
+      margin-bottom: 35px;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      display: flex;
+      justify-content: center;
+      gap: 18px;
+      flex-wrap: wrap;
+      margin-top: 35px;
+    }
+
+    .buttons a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 65px;
+      height: 65px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      font-size: 28px;
+      text-decoration: none;
+      transition: all 0.3s ease;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+    }
+    
+    .buttons a.call {
+      background: linear-gradient(135deg, #8b4513, #a0522d);
+    }
+    
+    .buttons a:hover {
+      transform: scale(1.1) translateY(-3px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+
+    /* Top Navigation */
+    nav {
+      background: linear-gradient(135deg, #8b4513, #a0522d);
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    
+    nav a {
+      margin: 0 15px;
+      font-weight: 700;
+      text-decoration: none;
+      color: #fff;
+      font-size: 16px;
+      transition: all 0.3s ease;
+      padding: 8px 15px;
+      border-radius: 5px;
+    }
+    
+    nav a:hover {
+      background: rgba(255,255,255,0.2);
+      transform: translateY(-2px);
+    }
+
+    .section {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section h2 {
+      font-size: 32px;
+      color: #8b4513;
+      margin-bottom: 30px;
+      text-align: center;
+      font-weight: 900;
+      position: relative;
+      padding-bottom: 15px;
+    }
+    
+    .section h2::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 100px;
+      height: 4px;
+      background: linear-gradient(to right, #d4af37, #f4e4c1);
+      border-radius: 2px;
+    }
+
+    .service {
+      background: white;
+      padding: 30px;
+      margin-bottom: 35px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      transition: all 0.3s ease;
+      border-right: 5px solid #d4af37;
+    }
+    
+    .service:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    }
+
+    .service img {
+      width: 100%;
+      max-height: 350px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    .service h3 {
+      font-size: 26px;
+      margin-bottom: 20px;
+      color: #8b4513;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    
+    .service h3 i {
+      color: #d4af37;
+      font-size: 28px;
+    }
+
+    .service p {
+      font-size: 17px;
+      margin-bottom: 15px;
+      line-height: 1.8;
+      color: #555;
+    }
+
+    .service .buttons {
+      justify-content: flex-start;
+      gap: 15px;
+      margin-top: 25px;
+    }
+    
+    .service .buttons a {
+      width: 55px;
+      height: 55px;
+      font-size: 24px;
+    }
+
+    section.about-us, section.contact-us {
+      background: white;
+      padding: 40px 30px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      margin-bottom: 35px;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    section.about-us h2, section.contact-us h2 {
+      font-size: 32px;
+      margin-bottom: 25px;
+      color: #8b4513;
+    }
+
+    section.about-us p, section.contact-us p {
+      font-size: 17px;
+      color: #555;
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+
+    section.contact-us ul {
+      list-style: none;
+      padding: 0;
+      margin: 25px 0;
+      display: flex;
+      gap: 25px;
+      justify-content: center;
+    }
+
+    section.contact-us ul li a {
+      color: #8b4513;
+      font-size: 26px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      border: 3px solid #d4af37;
+      transition: all 0.3s ease;
+      background: #fff;
+    }
+    
+    section.contact-us ul li a:hover {
+      background: linear-gradient(135deg, #8b4513, #a0522d);
+      color: white;
+      border-color: #8b4513;
+      transform: scale(1.1);
+    }
+
+    footer {
+      background: linear-gradient(135deg, #8b4513, #a0522d);
+      color: #fff;
+      text-align: center;
+      padding: 30px;
+      margin-top: 50px;
+    }
+    
+    footer p {
+      margin: 8px 0;
+      font-size: 16px;
+    }
+    
+    footer a {
+      color: #f4e4c1;
+      text-decoration: none;
+      font-weight: 600;
+      transition: color 0.3s ease;
+    }
+    
+    footer a:hover {
+      color: #fff;
+    }
+
+    /* Fixed Contact Buttons - Right and Left */
+    .fixed-contact {
+      position: fixed;
+      z-index: 9999;
+      animation: slideIn 1s ease;
+    }
+    
+    .fixed-contact.right {
+      bottom: 25px;
+      right: 25px;
+    }
+    
+    .fixed-contact.left {
+      bottom: 25px;
+      left: 25px;
+    }
+
+    .fixed-contact a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      color: white;
+      font-size: 30px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+      text-decoration: none;
+      transition: all 0.4s ease;
+    }
+
+    .fixed-contact a.whatsapp {
+      background: linear-gradient(135deg, #25d366, #128c7e);
+      animation: pulseGreen 2s ease-in-out infinite;
+    }
+
+    .fixed-contact a.call {
+      background: linear-gradient(135deg, #8b4513, #a0522d);
+      animation: pulseBrown 2s ease-in-out infinite 1s;
+    }
+
+    .fixed-contact a:hover {
+      transform: scale(1.15) rotate(5deg);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+    
+    @keyframes pulseGreen {
+      0%, 100% { box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4); }
+      50% { box-shadow: 0 6px 30px rgba(37, 211, 102, 0.7), 0 0 0 12px rgba(37, 211, 102, 0.1); }
+    }
+    
+    @keyframes pulseBrown {
+      0%, 100% { box-shadow: 0 6px 20px rgba(139, 69, 19, 0.4); }
+      50% { box-shadow: 0 6px 30px rgba(139, 69, 19, 0.7), 0 0 0 12px rgba(139, 69, 19, 0.1); }
+    }
+    
+    @keyframes slideIn {
+      from {
+        opacity: 0;
+        transform: translateY(100px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    /* Badge Styles */
+    .discount-badge {
+      display: inline-block;
+      background: linear-gradient(135deg, #ff6b6b, #ee5a6f);
+      color: white;
+      padding: 8px 20px;
+      border-radius: 25px;
+      font-weight: 800;
+      font-size: 16px;
+      margin-bottom: 15px;
+      box-shadow: 0 4px 15px rgba(255, 107, 107, 0.4);
+      animation: bounce 2s ease-in-out infinite;
+    }
+    
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-5px); }
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 28px;
+      }
+      
+      header p {
+        font-size: 18px;
+      }
+      
+      .brand-name h1 {
+        font-size: 32px;
+      }
+      
+      .section h2 {
+        font-size: 26px;
+      }
+      
+      .service h3 {
+        font-size: 22px;
+      }
+      
+      nav a {
+        display: block;
+        margin: 8px 0;
+      }
+      
+      .fixed-contact.right {
+        right: 15px;
+        bottom: 15px;
+      }
+      
+      .fixed-contact.left {
+        left: 15px;
+        bottom: 90px;
+      }
+      
+      .fixed-contact a {
+        width: 60px;
+        height: 60px;
+        font-size: 26px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#about">من نحن</a>
+    <a href="#services">خدماتنا</a>
+    <a href="#contact">تواصل معنا</a>
+  </nav>
+  
+  <header>
+    <div class="video-background">
+      <video autoplay muted loop playsinline>
+        <source src="https://cdn.pixabay.com/video/2020/05/17/40381-422445546_large.mp4" type="video/mp4">
+      </video>
+    </div>
+    
+    <div class="content">
+      <div class="logo-section">
+        <div class="logo">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="brand-name">
+          <h1>ركن الشرقية للحفلات والمناسبات</h1>
+          <p>شريككم الموثوق لإنجاح مناسباتكم</p>
+        </div>
+      </div>
+      
+      <h1>تأجير جلسات شعبية تراثية فخمة وجميع مستلزمات الحفلات</h1>
+      <p>نوفر لكم أفخر الجلسات الشعبية، الكراسي والطاولات الفاخرة، الكنب الملكي، وكافة احتياجات المناسبات بأعلى جودة وأفضل الأسعار في الدمام والخبر والمنطقة الشرقية</p>
+      
+      <div class="buttons">
+        <a href="https://wa.me/966559534118" target="_blank" class="whatsapp" aria-label="واتساب">
+          <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:0559534118" class="call" aria-label="اتصال">
+          <i class="fas fa-phone-alt"></i>
+        </a>
+      </div>
+    </div>
+  </header>
+  
+  <main>
+    <section class="section" id="services">
+      <h2>خدماتنا المتميزة</h2>
+      
+      <!-- Service 1: جلسات شعبية -->
+      <div class="service">
+        <span class="discount-badge">خصم 30%</span>
+        <h3><i class="fas fa-couch"></i> تأجير جلسات شعبية تراثية فخمة</h3>
+        <div class="buttons">
+          <a href="https://wa.me/966559534118" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:0559534118" class="call"><i class="fas fa-phone-alt"></i></a>
+        </div>
+        
+        <img src="https://i.postimg.cc/4NhbWGyT/86cbdc69-021d-4387-bcb4-7b1d3367bd8f.jpg" alt="تأجير جلسات شعبية تراثية">
+        <img src="https://i.postimg.cc/kMLhJftq/cf72a785-0ba7-42db-bae7-361441159b3e.jpg" alt="تأجير جلسات مرتفعة فاخرة">
+        <img src="https://i.postimg.cc/J4WcYgkD/8bea1465-b0fc-40c2-9032-85bfaf5e2ef0.jpg" alt="تأجير جلسات مغربية عصرية">
+        
+        <p><strong>ايجار جلسات شعبيه تراثية فخمة</strong> - نقدم في ركن الشرقية للحفلات أجمل وأفخم الجلسات الشعبية التراثية المصممة بعناية فائقة لتناسب جميع المناسبات الخاصة والعامة. جلساتنا مصنوعة من أفضل المواد وبتصاميم عصرية تجمع بين الأصالة والعراقة.</p>
+        
+        <p><strong>جلسات خارجية جاهزة بالخبر</strong> - لدينا مجموعة واسعة من الجلسات الخارجية الجاهزة المتوفرة للإيجار الفوري في الخبر والدمام وجميع مناطق الشرقية. جلساتنا مجهزة بالكامل مع الفرش والمساند الفاخرة والديكورات التراثية الأصيلة.</p>
+        
+        <p><strong>تأجير كنبات للمناسبات مميزة</strong> - نوفر كنبات فاخرة ومميزة بتصاميم عصرية وألوان متنوعة تناسب جميع أذواق العملاء. كنباتنا مريحة وأنيقة وتضيف لمسة من الفخامة على أي مناسبة.</p>
+        
+        <p><strong>استئجار جلسات خارجية بافضل سعر</strong> - نفخر في ركن الشرقية بتقديم أفضل الأسعار في السوق مع الحفاظ على أعلى معايير الجودة. لدينا عروض وخصومات خاصة تصل إلى 30% على جميع أنواع الجلسات.</p>
+        
+        <p><strong>جلسات أرضية تراثية للايجار</strong> - جلساتنا الأرضية التراثية مثالية للمناسبات العائلية والحفلات الشعبية. نوفر مجموعة متنوعة من التصاميم التقليدية والعصرية التي تناسب جميع الأذواق والمناسبات.</p>
+        
+        <p><strong>جلسات خارجية للايجار اليومي</strong> - خدمة الإيجار اليومي متوفرة بأسعار مناسبة وجودة عالية. سواء كانت مناسبتك لمدة يوم واحد أو عدة أيام، نحن نوفر لك الخدمة الكاملة من التوصيل والتركيب إلى الاستلام.</p>
+        
+        <p><strong>تاجير جلسات ارضيه اتصل</strong> - للحجز الفوري اتصل الآن على 0559534118 وسيقوم فريقنا المتخصص بتقديم الاستشارة المجانية ومساعدتك في اختيار الجلسات المناسبة لمناسبتك.</p>
+        
+        <p><strong>تاجير جلسات شعبية بأسعار خاصة</strong> - نقدم عروض وأسعار خاصة للمناسبات الكبيرة والحجوزات المبكرة. تواصل معنا الآن للحصول على أفضل العروض والأسعار المناسبة لميزانيتك.</p>
+        
+        <p><strong>جلسات تراثية للإيجار الفوري</strong> - جميع جلساتنا متوفرة للإيجار الفوري مع خدمة التوصيل السريع في نفس اليوم لجميع مناطق الدمام والخبر والشرقية. نضمن لك توفر الجلسات في الوقت المحدد.</p>
+        
+        <p><strong>تاجير جلسات ارضيه شعبيه اتصل</strong> - فريقنا المتخصص جاهز على مدار 24 ساعة لتلبية طلباتكم واستفساراتكم. نوفر خدمة عملاء ممتازة ومتابعة دقيقة لضمان نجاح مناسبتكم.</p>
+        
+        <p><strong>تاجير جلسات أرضيه بالدمام</strong> - نخدم جميع أحياء ومناطق الدمام بخدمة توصيل وتركيب مجانية. جلساتنا الأرضية بالدمام تتميز بالجودة العالية والتصاميم الفاخرة التي تناسب جميع المناسبات.</p>
+        
+        <p><strong>تاجير جلسات شعبية وأرضية في جميع مناطق الشرقية بجودة عالية للحفلات والمناسبات اتصل الان</strong> - نغطي جميع مناطق المنطقة الشرقية بما في ذلك الدمام، الخبر، الظهران، الجبيل، القطيف، والأحساء. خدماتنا متوفرة في كل مكان مع ضمان الجودة والالتزام بالمواعيد.</p>
+        
+        <div class="buttons">
+          <a href="https://wa.me/966559534118?text=أرغب في الاستفسار عن تأجير جلسات شعبية تراثية" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:0559534118" class="call"><i class="fas fa-phone-alt"></i></a>
+        </div>
+      </div>
+
+      <!-- Service 2: كراسي وطاولات -->
+      <div class="service">
+        <span class="discount-badge">خصم 30%</span>
+        <h3><i class="fas fa-chair"></i> تأجير كراسي وطاولات للمناسبات</h3>
+        <div class="buttons">
+          <a href="https://wa.me/966559534118" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:0559534118" class="call"><i class="fas fa-phone-alt"></i></a>
+        </div>
+        
+        <img src="https://i.postimg.cc/76Fb6Fkg/6c9678ae-bf6a-4a31-a72d-31fc390bac9f.jpg" alt="تأجير كراسي وطاولات فاخرة">
+        <img src="https://i.postimg.cc/xjNz2R2v/cc94da58-2952-4680-8691-50377fce8e39.jpg" alt="تأجير طاولات بوفية أنيقة">
+        <img src="https://i.postimg.cc/dt8Z7VDD/50746402-46e8-4944-a0af-09dae9280501.jpg" alt="تأجير طاولات طعام عصرية">
+        <img src="https://i.postimg.cc/bwpD1f2g/349f7f0f-df5d-45a6-a0bd-0a3aecf85415.jpg" alt="تأجير طاولات قزاز شفافة">
+        
+        <p><strong>تأجير كراسي وطاولات للمناسبات</strong> - في ركن الشرقية، نوفر لكم أفضل وأرقى الكراسي والطاولات للمناسبات والحفلات بجميع أنواعها. لدينا تشكيلة واسعة من التصاميم الكلاسيكية والعصرية التي تناسب جميع الأذواق والميزانيات.</p>
+        
+        <p><strong>ايجار زل استقبال وطاولات عزائم</strong> - نقدم خدمة تأجير الزل الفاخر وطاولات العزائم الكبيرة المناسبة للمناسبات الكبرى والعزائم العائلية. طاولاتنا مصنوعة من أفضل المواد وبتصاميم أنيقة وعملية.</p>
+        
+        <p><strong>تاجير طاولات قزاز وسجاد احمر</strong> - طاولاتنا الزجاجية الشفافة تضيف لمسة من الأناقة والفخامة على أي مناسبة. كما نوفر السجاد الأحمر الفاخر للممرات والمداخل لإضفاء طابع ملكي على حفلكم.</p>
+        
+        <p><strong>خصم 30% علي تاجير كراسي وطاولات</strong> - عروضنا الحصرية توفر لكم خصم يصل إلى 30% على تأجير الكراسي والطاولات. احجز الآن واستفد من أفضل الأسعار في السوق مع الحفاظ على أعلى معايير الجودة.</p>
+        
+        <p><strong>تاجير طاولات وكراسي للحفلات والمناسبات بالدمام خدمة 24 ساعة اتصل الان</strong> - خدماتنا متوفرة على مدار الساعة طوال أيام الأسبوع. فريقنا المتخصص جاهز للرد على استفساراتكم وتلبية طلباتكم في أي وقت.</p>
+        
+        <p><strong>ايجار كراسي وطاولات استقبال للحفلات والمناسبات والافراح</strong> - كراسي وطاولات الاستقبال لدينا مصممة خصيصاً لتوفير الراحة والأناقة لضيوفكم. نوفر مجموعة متنوعة من الأشكال والألوان التي تناسب ديكور حفلكم.</p>
+        
+        <p><strong>تاجير سجاد استقبال وكوش للافراح باسعار مناسبة</strong> - نقدم خدمات تأجير السجاد الفاخر وكوش الأفراح بتصاميم عصرية وتقليدية. لدينا فروع في جميع مناطق الشرقية لخدمتكم بشكل أفضل.</p>
+        
+        <p><strong>تجهيز وتاجير طاولات استقبال فاخرة بالدمام للحفلات والمناسبات العامة والفاعليات</strong> - نوفر خدمة التجهيز الكامل لطاولات الاستقبال مع الديكورات والتنسيقات الفاخرة. فريقنا المحترف يضمن لكم أعلى مستويات الأناقة والتنظيم.</p>
+        
+        <p><strong>تاجير طاولات استقبال الدمام</strong> - طاولات الاستقبال لدينا متوفرة بأحجام وتصاميم مختلفة تناسب جميع أنواع الفعاليات من الحفلات الصغيرة إلى المؤتمرات الكبرى.</p>
+        
+        <p><strong>تاجير كراسي وطاولات عزائم اتصل الان</strong> - للحجز الفوري وللحصول على أفضل العروض، اتصل بنا الآن على 0559534118. فريق خدمة العملاء لدينا سيساعدك في اختيار الكراسي والطاولات المناسبة لمناسبتك.</p>
+        
+        <div class="buttons">
+          <a href="https://wa.me/966559534118?text=أرغب في الاستفسار عن تأجير كراسي وطاولات" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:0559534118" class="call"><i class="fas fa-phone-alt"></i></a>
+        </div>
+      </div>
+
+      <!-- Service 3: تنسيق وتجهيز -->
+      <div class="service">
+        <span class="discount-badge">عروض خاصة</span>
+        <h3><i class="fas fa-calendar-check"></i> تنسيق وتجهيز الحفلات والمناسبات</h3>
+        <div class="buttons">
+          <a href="https://wa.me/966559534118" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:0559534118" class="call"><i class="fas fa-phone-alt"></i></a>
+        </div>
+        
+        <img src="https://i.postimg.cc/Dy9ZckJH/ed49c590-79ae-43ad-9a4c-117315b814c3.jpg" alt="تأجير حواجز فخمة">
+        <img src="https://i.postimg.cc/x8bQk8RC/9f587383-9f34-4b36-98af-9fe51af9230e.jpg" alt="تأجير ممرات راقية">
+        <img src="https://i.postimg.cc/6pK7XxWR/ca588526-f9be-4873-a336-76ceefd183b8.jpg" alt="تأجير عقود إضاءة">
+        <img src="https://i.postimg.cc/x1PXjp8Z/4db8dba2-e42a-4a76-b127-65e1f8a11e82.jpg" alt="تأجير سجاد وزل ملكي">
+        
+        <p><strong>تنسيق تجهيز افراح ومناسبات</strong> - نقدم في ركن الشرقية خدمة التنسيق والتجهيز الكامل للأفراح والمناسبات من الألف إلى الياء. فريقنا المتخصص يعمل معكم لتحقيق رؤيتكم وجعل مناسبتكم لا تُنسى.</p>
+        
+        <p><strong>تاجير كوش أفراح وسجاد بالدمام</strong> - كوش الأفراح لدينا مصمم بأحدث الطرق وأجمل التصاميم لإضفاء جو من الفخامة والرومانسية على حفل زفافكم. نوفر أيضاً السجاد الفاخر بألوان وتصاميم متنوعة.</p>
+        
+        <p><strong>ارقام محلات تاجيرطاولات وكراسي</strong> - للتواصل معنا والحصول على استشارة مجانية، اتصل على 0559534118. نحن متواجدون لخدمتكم في جميع أوقات اليوم.</p>
+        
+        <p><strong>تاجير كراسي مؤتمرات ومعارض</strong> - نوفر كراسي احترافية مريحة مناسبة للمؤتمرات والمعارض والفعاليات الرسمية. كراسينا مصممة لتوفير أقصى درجات الراحة أثناء الفعاليات الطويلة.</p>
+        
+        <p><strong>تأجير طاولات مناسبات</strong> - لدينا طاولات بأحجام وأشكال مختلفة تناسب جميع أنواع المناسبات من الحفلات الصغيرة إلى الفعاليات الضخمة. جميع طاولاتنا نظيفة ومصانة بأعلى المعايير.</p>
+        
+        <p><strong>ايجار جلسات شعبية وكنب</strong> - باقاتنا الشاملة تتضمن الجلسات الشعبية والكنب الفاخر معاً بأسعار تنافسية. احصل على صفقة كاملة لمناسبتك بأفضل الأسعار.</p>
+        
+        <p><strong>استئجار طاولات مناسبات بالدمام</strong> - خدمة الاستئجار لدينا تشمل التوصيل والتركيب المجاني في جميع أنحاء الدمام والمناطق المجاورة. نضمن لكم الالتزام بالمواعيد والجودة العالية.</p>
+        
+        <p><strong>ايجار كراسي وطاولات وكنب</strong> - وفر وقتك ومالك باختيار باقاتنا المتكاملة التي تشمل الكراسي والطاولات والكنب معاً. نقدم خصومات خاصة على الباقات الشاملة.</p>
+        
+        <p><strong>محل تاجير كراسي حفلات</strong> - ركن الشرقية هو وجهتكم الأولى لتأجير كراسي الحفلات في المنطقة الشرقية. لدينا أكبر تشكيلة من الكراسي الفاخرة والعصرية.</p>
+        
+        <p><strong>استئجار طاولة طعام</strong> - طاولات الطعام لدينا متوفرة بأشكال دائرية ومستطيلة ومربعة لتناسب جميع احتياجاتكم. جميع طاولاتنا متينة وأنيقة ومناسبة للاستخدام الداخلي والخارجي.</p>
+        
+        <div class="buttons">
+          <a href="https://wa.me/966559534118?text=أرغب في الاستفسار عن تنسيق المناسبات" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:0559534118" class="call"><i class="fas fa-phone-alt"></i></a>
+        </div>
+      </div>
+
+      <!-- Service 4: خدمات إضافية -->
+      <div class="service">
+        <span class="discount-badge">خصم خاص</span>
+        <h3><i class="fas fa-star"></i> خدمات إضافية ومميزة</h3>
+        <div class="buttons">
+          <a href="https://wa.me/966559534118" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:0559534118" class="call"><i class="fas fa-phone-alt"></i></a>
+        </div>
+        
+        <img src="https://i.postimg.cc/MT6JYtmh/7267d667-899a-4554-a9fe-6927ddb211a0.jpg" alt="تأجير كراسي ملكي فاخرة">
+        <img src="https://i.postimg.cc/RhqrkF8d/IMG-2571.jpg" alt="تأجير كراسي شفافة عصرية">
+        <img src="https://i.postimg.cc/pV1MDfh6/58b8f0b6-6d59-4ee9-8f66-edc0e9113372.jpg" alt="تنسيق حفلات احترافي">
+        
+        <p><strong>كراسي مناسبات للايجار</strong> - نوفر مجموعة واسعة من كراسي المناسبات بتصاميم متنوعة تشمل الكراسي الكلاسيكية، الحديثة، الشفافة، والملكية. جميع كراسينا نظيفة ومريحة وبحالة ممتازة.</p>
+        
+        <p><strong>تأجير سجاد وكراسي حفلات</strong> - الباقة المتكاملة لدينا تشمل السجاد الفاخر والكراسي الأنيقة معاً بأسعار تنافسية. نوفر لكم كل ما تحتاجونه لإنجاح حفلتكم في باقة واحدة شاملة.</p>
+        
+        <p><strong>اجار طاولات</strong> - خدمة إيجار الطاولات لدينا تشمل جميع أنواع الطاولات من طاولات الطعام إلى طاولات البوفيه والاستقبال. أسعارنا مناسبة وجودتنا عالية.</p>
+        
+        <p><strong>تأجير كراسي و زل الدمام</strong> - نقدم خدمة تأجير الكراسي والزل في جميع أنحاء الدمام مع التوصيل والتركيب المجاني. فريقنا المحترف يضمن لكم خدمة سريعة ومتميزة.</p>
+        
+        <p><strong>كراسي للايجار الدمام</strong> - ركن الشرقية هو المصدر الأول لتأجير الكراسي في الدمام. لدينا أكثر من 20 نوع مختلف من الكراسي التي تناسب جميع أنواع المناسبات والفعاليات.</p>
+        
+        <p><strong>تاجير كراسي وطاولات الخبر</strong> - نخدم مدينة الخبر وجميع أحيائها بخدمة توصيل سريعة ومجانية. لدينا فرع متخصص في الخبر لضمان سرعة الاستجابة وجودة الخدمة.</p>
+        
+        <p><strong>ارقام تاجير طاولات وجلسات شعبية</strong> - للحجز والاستفسار، اتصل على 0559534118 أو راسلنا عبر الواتساب. فريق خدمة العملاء المتخصص جاهز لمساعدتك في أي وقت.</p>
+        
+        <p><strong>لدينا تاجير كراسي وطاولات قزاز</strong> - الطاولات الزجاجية والكراسي الشفافة تضيف لمسة عصرية وأنيقة على أي مناسبة. هذه القطع مثالية للحفلات الراقية والفعاليات الرسمية.</p>
+        
+        <p><strong>تاجير طاولات وجلسات بالدمام</strong> - نقدم باقات شاملة تتضمن الطاولات والجلسات معاً بأسعار مخفضة. وفر المال والوقت باختيار باقاتنا المتكاملة التي تغطي جميع احتياجاتك.</p>
+        
+        <div class="buttons">
+          <a href="https://wa.me/966559534118?text=أرغب في الاستفسار عن الخدمات الإضافية" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:0559534118" class="call"><i class="fas fa-phone-alt"></i></a>
+        </div>
+      </div>
+
+      <!-- Service 5: كنب فاخر -->
+      <div class="service">
+        <span class="discount-badge">خصم 30%</span>
+        <h3><i class="fas fa-loveseat"></i> تأجير كنب ملكي وفاخر</h3>
+        <div class="buttons">
+          <a href="https://wa.me/966559534118" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:0559534118" class="call"><i class="fas fa-phone-alt"></i></a>
+        </div>
+        
+        <img src="https://i.postimg.cc/zB8WZLW7/aece4d13-45c1-473d-97f0-a4eee60356e5.jpg" alt="تأجير كنب ملكي فاخر">
+        <img src="https://i.postimg.cc/66HZgpQV/48de903e-0398-476c-94e0-8ff5799dc3fe.jpg" alt="تأجير كنب ثلاثي عصري">
+        
+        <p><strong>تاجير كنب للحفلات بالدمام</strong> - نوفر أفخم أنواع الكنب للحفلات والمناسبات في الدمام والمنطقة الشرقية. كنباتنا مصممة بأعلى معايير الجودة والراحة لتوفير تجربة استثنائية لضيوفكم.</p>
+        
+        <p>كنبنا الملكي والفاخر يتميز بالتصاميم العصرية والتقليدية، الألوان المتنوعة، والأقمشة الفاخرة. نوفر كنب ثنائي وثلاثي ورباعي يناسب جميع المساحات والاحتياجات.</p>
+        
+        <p>خدمة تأجير الكنب لدينا تشمل التوصيل والتركيب المجاني، التنظيف الشامل قبل وبعد الاستخدام، والصيانة الدورية لضمان أفضل حالة للكنب. نضمن لكم كنب نظيف ومريح وبحالة ممتازة.</p>
+        
+        <p>لدينا عروض خاصة على تأجير الكنب للمناسبات الكبيرة والحجوزات المبكرة. اتصل بنا الآن للحصول على أفضل الأسعار والعروض الحصرية.</p>
+        
+        <div class="buttons">
+          <a href="https://wa.me/966559534118?text=أرغب في الاستفسار عن تأجير كنب فاخر" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:0559534118" class="call"><i class="fas fa-phone-alt"></i></a>
+        </div>
+      </div>
+
+      <!-- Service 6: خيام -->
+      <div class="service">
+        <span class="discount-badge">عروض موسمية</span>
+        <h3><i class="fas fa-campground"></i> تأجير خيام وبيوت شعر</h3>
+        <div class="buttons">
+          <a href="https://wa.me/966559534118" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:0559534118" class="call"><i class="fas fa-phone-alt"></i></a>
+        </div>
+        
+        <img src="https://i.postimg.cc/jjW7SQfY/bcd75601-bd08-4467-975f-513c8091845b.jpg" alt="تأجير خيام فاخرة">
+        <img src="https://i.postimg.cc/Rhm6dkDv/e8e2919c-617e-4c1f-8323-9bc523f4744c.jpg" alt="تأجير خيام أوروبية وبيوت شعر">
+        
+        <p>نقدم خدمة تأجير الخيام الفاخرة والخيام الأوروبية وبيوت الشعر التراثية لجميع أنواع المناسبات والفعاليات الخارجية. خيامنا مصنوعة من أفضل المواد المقاومة لجميع الظروف الجوية.</p>
+        
+        <p>لدينا خيام بأحجام مختلفة تتسع من 20 إلى 500 شخص. جميع خيامنا مجهزة بالإضاءة والتهوية المناسبة، ويمكن تركيب أنظمة التكييف عند الطلب.</p>
+        
+        <p>خدمة تأجير الخيام لدينا تشمل التوصيل والتركيب والفك، مع فريق فني متخصص يضمن سلامة وثبات الخيمة. نوفر أيضاً خدمة التزيين والديكور الداخلي للخيام.</p>
+        
+        <p>نخدم جميع مناطق الشرقية بخدمة خيام احترافية للحفلات، الأعراس، المؤتمرات، المعارض، والفعاليات الموسمية. اتصل بنا للحصول على استشارة مجانية وعرض سعر مناسب.</p>
+        
+        <div class="buttons">
+          <a href="https://wa.me/966559534118?text=أرغب في الاستفسار عن تأجير خيام" target="_blank" class="whatsapp"><i class="fab fa-whatsapp"></i></a>
+          <a href="tel:0559534118" class="call"><i class="fas fa-phone-alt"></i></a>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="section about-us" id="about">
+      <h2>من نحن</h2>
+      <p>ركن الشرقية للحفلات والمناسبات هي مؤسسة رائدة في مجال تأجير مستلزمات الحفلات والمناسبات في المنطقة الشرقية. نعمل منذ سنوات طويلة على تقديم أفضل الخدمات لعملائنا الكرام بأعلى معايير الجودة والاحترافية.</p>
+      
+      <p>نحن نفخر بتوفير أفخم الجلسات الشعبية التراثية، الكراسي والطاولات الفاخرة، الكنب الملكي، الخيام، وجميع مستلزمات الحفلات والمناسبات. نخدم جميع مناطق الشرقية بما في ذلك الدمام، الخبر، الظهران، الجبيل، القطيف، والأحساء.</p>
+      
+      <p>فريق العمل لدينا متخصص ومدرب على أعلى مستوى لضمان تقديم خدمة متميزة تلبي توقعات عملائنا وتتجاوزها. نوفر خدمة التوصيل والتركيب المجانية، والصيانة الدورية، ودعم العملاء على مدار الساعة.</p>
+      
+      <p>رضا عملائنا هو هدفنا الأول، ولذلك نحرص على توفير أفضل الأسعار والعروض الحصرية، مع الحفاظ على أعلى معايير الجودة في جميع منتجاتنا وخدماتنا. نضمن لكم مناسبة ناجحة لا تُنسى مع ركن الشرقية.</p>
+    </section>
+
+    <section class="section contact-us" id="contact">
+      <h2>تواصل معنا</h2>
+      <p>للحجز والاستفسار عن خدماتنا، يمكنكم التواصل معنا عبر:</p>
+      <ul>
+        <li>
+          <a href="https://wa.me/966559534118" target="_blank" aria-label="تواصل معنا عبر واتساب">
+            <i class="fab fa-whatsapp" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="tel:0559534118" aria-label="اتصل بنا">
+            <i class="fas fa-phone-alt" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+      <p style="margin-top: 20px; font-size: 18px; font-weight: 600; color: #8b4513;">
+        <i class="fas fa-phone"></i> رقم الهاتف: 0559534118
+      </p>
+      <p style="font-size: 16px; color: #666;">
+        <i class="fas fa-clock"></i> نعمل على مدار الساعة لخدمتكم
+      </p>
+      <p style="font-size: 16px; color: #666;">
+        <i class="fas fa-map-marker-alt"></i> نخدم جميع مناطق المنطقة الشرقية
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 ركن الشرقية للحفلات والمناسبات. جميع الحقوق محفوظة.</p>
+    <p>تأجير جلسات شعبية تراثية، كراسي وطاولات، كنب، خيام، وجميع مستلزمات الحفلات في المنطقة الشرقية</p>
+    <p>للاستفسارات: <a href="tel:0559534118">0559534118</a> | <a href="https://wa.me/966559534118">واتساب</a></p>
+  </footer>
+
+  <!-- Fixed Contact Buttons -->
+  <div class="fixed-contact right">
+    <a href="https://wa.me/966559534118" target="_blank" class="whatsapp" aria-label="تواصل معنا عبر واتساب">
+      <i class="fab fa-whatsapp" aria-hidden="true"></i>
+    </a>
+  </div>
+
+  <div class="fixed-contact left">
+    <a href="tel:0559534118" class="call" aria-label="اتصل بنا">
+      <i class="fas fa-phone-alt" aria-hidden="true"></i>
+    </a>
+  </div>
+
+  <script>
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Lazy loading images
+    document.addEventListener('DOMContentLoaded', function() {
+      const images = document.querySelectorAll('img');
+      
+      if ('IntersectionObserver' in window) {
+        const imageObserver = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const img = entry.target;
+              img.classList.add('loaded');
+              observer.unobserve(img);
+            }
+          });
+        });
+
+        images.forEach(img => imageObserver.observe(img));
+      }
+    });
+
+    // Add animation on scroll
+    const observerOptions = {
+      threshold: 0.1,
+      rootMargin: '0px 0px -100px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+        }
+      });
+    }, observerOptions);
+
+    document.querySelectorAll('.service').forEach(service => {
+      service.style.opacity = '0';
+      service.style.transform = 'translateY(30px)';
+      service.style.transition = 'all 0.6s ease';
+      observer.observe(service);
+    });
+  </script>
+</body>
+</html>
