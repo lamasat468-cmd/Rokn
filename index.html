@@ -7,48 +7,6 @@
   <!-- Favicon - اللوجو -->
 <link rel="icon" type="image/jpeg" href="https://cdn.phototourl.com/uploads/2026-02-10-51bdb56e-646c-4058-9f0d-51e1549b4da4.jpg">
 <link rel="apple-touch-icon" href="https://cdn.phototourl.com/uploads/2026-02-10-51bdb56e-646c-4058-9f0d-51e1549b4da4.jpg">
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17867861898">
-</script>
-<script>
-document.addEventListener("DOMContentLoaded", function () {
-
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'AW-17867861898');
-
-  // Hamburger Menu Toggle
-  const hamburger = document.getElementById('hamburger');
-  const sideMenu = document.getElementById('sideMenu');
-  const menuOverlay = document.getElementById('menuOverlay');
-
-  if (hamburger && sideMenu && menuOverlay) {
-
-    hamburger.addEventListener('click', function() {
-      hamburger.classList.toggle('active');
-      sideMenu.classList.toggle('active');
-      menuOverlay.classList.toggle('active');
-    });
-
-    menuOverlay.addEventListener('click', function() {
-      hamburger.classList.remove('active');
-      sideMenu.classList.remove('active');
-      menuOverlay.classList.remove('active');
-    });
-
-    document.querySelectorAll('.side-menu a').forEach(link => {
-      link.addEventListener('click', function() {
-        hamburger.classList.remove('active');
-        sideMenu.classList.remove('active');
-        menuOverlay.classList.remove('active');
-      });
-    });
-
-  }
-
-});
-</script>
 
   <meta name="description" content="ركن الشرقية للحفلات - تأجير جلسات شعبية، تأجير كراسي وطاولات، تأجير قعدات خارجية، تأجير كنب، تأجير دفايات، تأجير مكيفات، تأجير جلسات شتوية، قهوجيين وصبابين، تأجير لوازم حفلات ومناسبات في الدمام والخبر والشرقية. خصم 30% على جميع الخدمات. اتصل الآن 0559534118">
   
@@ -1052,5 +1010,37 @@ document.addEventListener("DOMContentLoaded", function () {
       observer.observe(service);
     });
   </script>
+  <script>
+document.addEventListener("DOMContentLoaded", function () {
+
+  const hamburger = document.getElementById('hamburger');
+  const sideMenu = document.getElementById('sideMenu');
+  const menuOverlay = document.getElementById('menuOverlay');
+
+  if (!hamburger || !sideMenu || !menuOverlay) return;
+
+  hamburger.addEventListener('click', function() {
+    hamburger.classList.toggle('active');
+    sideMenu.classList.toggle('active');
+    menuOverlay.classList.toggle('active');
+  });
+
+  menuOverlay.addEventListener('click', function() {
+    hamburger.classList.remove('active');
+    sideMenu.classList.remove('active');
+    menuOverlay.classList.remove('active');
+  });
+
+  document.querySelectorAll('.side-menu a').forEach(link => {
+    link.addEventListener('click', function() {
+      hamburger.classList.remove('active');
+      sideMenu.classList.remove('active');
+      menuOverlay.classList.remove('active');
+    });
+  });
+
+});
+</script>
+
 </body>
 </html>
