@@ -16,6 +16,31 @@
   gtag('js', new Date());
 
   gtag('config', 'AW-17867861898');
+  // Hamburger Menu Toggle
+const hamburger = document.getElementById('hamburger');
+const sideMenu = document.getElementById('sideMenu');
+const menuOverlay = document.getElementById('menuOverlay');
+
+hamburger.addEventListener('click', function() {
+  hamburger.classList.toggle('active');
+  sideMenu.classList.toggle('active');
+  menuOverlay.classList.toggle('active');
+});
+
+menuOverlay.addEventListener('click', function() {
+  hamburger.classList.remove('active');
+  sideMenu.classList.remove('active');
+  menuOverlay.classList.remove('active');
+});
+
+// Close menu when clicking on a link
+document.querySelectorAll('.side-menu a').forEach(link => {
+  link.addEventListener('click', function() {
+    hamburger.classList.remove('active');
+    sideMenu.classList.remove('active');
+    menuOverlay.classList.remove('active');
+  });
+});
 </script>
   <meta name="description" content="ركن الشرقية للحفلات - تأجير جلسات شعبية تراثية فخمة، كراسي وطاولات للمناسبات في الدمام والخبر والشرقية. خصم 30% على جميع الخدمات. اتصل الآن 0559534118">
   
@@ -123,8 +148,16 @@
       justify-content: center;
       box-shadow: 0 8px 25px rgba(0,0,0,0.3);
       animation: float 3s ease-in-out infinite;
+      overflow: hidden;
+   padding: 5px;
     }
-    
+
+    .logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+  }
     .logo i {
       font-size: 3rem;
       color: #8b4513;
@@ -149,6 +182,110 @@
       font-weight: 600;
     }
 
+    /* Hamburger Menu Styles */
+.hamburger-menu {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 2000;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, #8b4513, #a0522d);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.hamburger-menu:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+.hamburger-menu span {
+  width: 30px;
+  height: 3px;
+  background-color: #fff;
+  border-radius: 3px;
+  transition: all 0.3s ease;
+}
+
+.hamburger-menu.active span:nth-child(1) {
+  transform: rotate(45deg) translate(8px, 8px);
+}
+
+.hamburger-menu.active span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger-menu.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(8px, -8px);
+}
+
+.side-menu {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100vh;
+  background: linear-gradient(135deg, #8b4513, #a0522d);
+  z-index: 1999;
+  transition: left 0.3s ease;
+  padding: 80px 20px 20px;
+  box-shadow: 2px 0 15px rgba(0,0,0,0.3);
+}
+
+.side-menu.active {
+  left: 0;
+}
+
+.side-menu a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 700;
+  transition: all 0.3s ease;
+  border-right: 4px solid transparent;
+}
+
+.side-menu a:hover {
+  background: rgba(255,255,255,0.15);
+  border-right-color: #d4af37;
+  transform: translateX(5px);
+}
+
+.side-menu a i {
+  margin-left: 10px;
+  font-size: 20px;
+}
+
+.menu-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0,0,0,0.5);
+  z-index: 1998;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+
+.menu-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+    
     header h1 {
       font-size: 38px;
       margin: 0 0 25px;
@@ -480,6 +617,11 @@
       header h1 {
         font-size: 28px;
       }
+
+      .side-menu {
+    width: 250px;
+    left: -250px;
+   }
       
       header p {
         font-size: 18px;
@@ -521,11 +663,22 @@
   </style>
 </head>
 <body>
-  <nav>
-    <a href="#about">من نحن</a>
-    <a href="#services">خدماتنا</a>
-    <a href="#contact">تواصل معنا</a>
-  </nav>
+ <!-- Hamburger Menu Button -->
+<div class="hamburger-menu" id="hamburger">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+
+<!-- Side Menu -->
+<nav class="side-menu" id="sideMenu">
+  <a href="#about"><i class="fas fa-info-circle"></i> من نحن</a>
+  <a href="#services"><i class="fas fa-concierge-bell"></i> خدماتنا</a>
+  <a href="#contact"><i class="fas fa-phone-alt"></i> تواصل معنا</a>
+</nav>
+
+<!-- Menu Overlay -->
+<div class="menu-overlay" id="menuOverlay"></div>
   
   <header>
     <div class="video-background">
@@ -536,9 +689,9 @@
     
     <div class="content">
       <div class="logo-section">
-        <div class="logo">
-          <i class="fas fa-star"></i>
-        </div>
+       <div class="logo">
+  <img src="https://cdn.phototourl.com/uploads/2026-02-10-51bdb56e-646c-4058-9f0d-51e1549b4da4.jpg" alt="ركن الشرقية للحفلات">
+</div>
         <div class="brand-name">
           <h1>ركن الشرقية للحفلات والمناسبات</h1>
           <p>شريككم الموثوق لإنجاح مناسباتكم</p>
