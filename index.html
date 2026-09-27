@@ -14,11 +14,21 @@
   
   <link rel="canonical" href="https://ruknalsharqia.com/" />
   
-  <!-- FontAwesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
-  
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&family=Tajawal:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- Preconnect للخطوط -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Google Fonts بتحميل غير حاجب -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=optional" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=optional">
+  </noscript>
+
+  <!-- FontAwesome بتحميل غير حاجب -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  </noscript>
 
   <script type="application/ld+json">
 {
@@ -539,14 +549,14 @@
       box-shadow: 0 10px 30px rgba(0,0,0,0.4);
     }
     
-    @keyframes pulseGreen {
-      0%, 100% { box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4); }
-      50% { box-shadow: 0 6px 30px rgba(37, 211, 102, 0.7), 0 0 0 12px rgba(37, 211, 102, 0.1); }
+   @keyframes pulseGreen {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.08); }
     }
     
     @keyframes pulseBrown {
-      0%, 100% { box-shadow: 0 6px 20px rgba(139, 69, 19, 0.4); }
-      50% { box-shadow: 0 6px 30px rgba(139, 69, 19, 0.7), 0 0 0 12px rgba(139, 69, 19, 0.1); }
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.08); }
     }
     
     @keyframes slideIn {
